@@ -1,20 +1,32 @@
 body{
-    margin: 0 auto;
-    padding: 0 auto;
+    margin: 0;
+    padding: 0
+    background-repeat: repeat;
+    background-position: fixed;
+    width: 100%;
 }
 
 .container{
     width: 100%;
     max-width: 960px;
+    padding: 10px;
+    margin:15px;
+}
+
+/*****************************
+        COMMUN
+*****************************/
+
+.ls-header, .ls-footer {
+    background-image: url('images/symphony.png');
 }
 
 
 /*****************************
   Header
   ***************************/
+  
 .ls-header{
-    border: 1px red solid;
-    background-image: url('images/symphony.png');
     color: purple;
 }
 
@@ -36,6 +48,8 @@ body{
 
 main {
     background-image: url('images/concrete_seamless.png');
+    background-repeat: repeat;
+    background-position: fixed;
     width: 100%;
     
 }
@@ -51,9 +65,6 @@ section {
 /*****************************
        FOOTER
   ***************************/ 
-footer {
-     background-image: url('images/symphony.png');
-}
 
 iframe {
     width: 50%;
@@ -65,8 +76,6 @@ footer .contact {
     margin-left: 30px;
     display: inline-block;
     vertical-align: middle;
-
-
 }
 
 
