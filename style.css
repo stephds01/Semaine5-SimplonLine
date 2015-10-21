@@ -1,0 +1,75 @@
+body{
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+.container{
+    width: 100%;
+    max-width: 960px;
+}
+
+
+/*****************************
+  Header
+  ***************************/
+.ls-header{
+    border: 1px red solid;
+    background-image: url('images/symphony.png');
+    color: purple;
+}
+
+.ls-header p {
+    display: inline-block;
+    vertical-align: middle;
+    
+}
+
+.entete {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    margin-left: 20%;
+}    
+/*****************************
+       MAIN
+  ***************************/    
+
+main {
+    background-image: url('images/concrete_seamless.png');
+    width: 100%;
+    
+}
+
+section {
+    width: 30%;
+    display: inline-block;
+    vertical-align: top;
+    padding: 10px;
+}
+
+
+/*****************************
+       FOOTER
+  ***************************/ 
+footer {
+     background-image: url('images/symphony.png');
+}
+
+iframe {
+    width: 50%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+footer .contact {
+    margin-left: 30px;
+    display: inline-block;
+    vertical-align: middle;
+
+
+}
+
+
+
+
+
